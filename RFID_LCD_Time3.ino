@@ -1,4 +1,13 @@
 /*
+  RFID TAG READER AND INTERFACE
+  Code is heavily altered from original version to allow for
+  button and LCD interfaces and registering of object state. The
+  code implements millis() timing for smooth messaging and 
+  interactions. The bag is able to operate intirely independently 
+  of a computer. The association between RFID tags and objects 
+  are currently hardcoded.  
+  
+  Original Code:
   Reading multiple RFID tags, simultaneously!
   By: Nathan Seidle @ SparkFun Electronics
   Date: October 3rd, 2016
